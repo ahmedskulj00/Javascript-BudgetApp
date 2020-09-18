@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BudgetApp</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+    <h1>BudgetApp</h1>
+    <h3>Easily track your finances</h3>
+    <input type="text" id="insert-budget" placeholder="Please insert your budget">
+    <button id="insertB">Insert</button>
+    <input type="text" id="name-expense" placeholder="Please insert the name of your expense">
+    <input type="text" id="expense" placeholder="Please insert the amount">
+    <button id="submit">Submit</button>
+    <div>
+      <p>Your budget is: </p>
+      <h4 id="user-budget"></h4>
+    </div>
+   <table id="expense-table">
+    <tr class="row">
+      <th>Name of Expense</th>
+      <th>Expense</th>
+    </tr>
+  </table>
+    <script src="js/main.js"></script>
+</body>
+</html>
