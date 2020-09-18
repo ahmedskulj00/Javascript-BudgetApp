@@ -47,13 +47,6 @@ h3{
     display: flex;
     justify-content: space-between;
 }
-.delete-button{
-    width: 25px;
-    color: white;
-    background: black;
-    border-radius: 5px;
-    margin-left: 5px;
-}
 th{
     padding-right: 25px;
     padding-left: 25px;
@@ -85,9 +78,4 @@ p{
     color: white;
     background: black;
     border-radius: 5px;
-}
-#clear-all{
-    display: block;
-    margin: 0 auto;
-    margin-top: 15px;
 }
