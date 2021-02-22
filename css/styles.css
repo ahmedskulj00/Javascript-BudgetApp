@@ -1,81 +1,57 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-h1{
-    text-align: center;
-    margin-top: 150px;
+h1 {
+  text-align: center;
+  margin-top: 150px;
 }
-h3{
-    text-align: center;
-    margin-top: 10px;
+h3 {
+  text-align: center;
+  margin-top: 10px;
 }
-#name-expense{
-    display: block;
-    margin: 0 auto;
-    margin-top: 25px;
-    width: 800px;
-    height: 30px;
+#name-expense {
+  display: block;
+  margin: 0 auto;
+  margin-top: 25px;
+  width: 800px;
+  height: 30px;
 }
-#expense{
-    display: block;
-    margin: 0 auto;
-    margin-top: 25px;
-    width: 800px;
-    height: 30px;
-} 
-#submit{
-    display: block;
-    margin: 0 auto;
-    margin-top: 10px;
-    width: 100px;
-    height: 25px;
-    color: white;
-    background: black;
-    border-radius: 5px;
-} 
-#expense-table{
-    margin: 0 auto;
-    margin-top: 35px;
-    width: 900px;
-    border: 2px solid black;
+#expense {
+  display: block;
+  margin: 0 auto;
+  margin-top: 25px;
+  width: 800px;
+  height: 30px;
 }
-.row{
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
+#submit {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 100px;
+  height: 25px;
+  color: white;
+  background: black;
+  border-radius: 5px;
 }
-th{
-    padding-right: 25px;
-    padding-left: 25px;
+#expense-table {
+  margin: 0 auto;
+  margin-top: 35px;
+  width: 900px;
+  border: 2px solid black;
 }
-.cell{
-    padding-right: 25px;
-    padding-left: 25px;
+.row {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
 }
-p{
-    margin-top: 15px;
-    text-align: center;
+th {
+  padding-right: 25px;
+  padding-left: 25px;
 }
-#user-budget{
-    text-align: center;
-}
-#insert-budget{
-    display: block;
-    margin: 0 auto;
-    margin-top: 25px;
-    width: 800px;
-    height: 30px;
-}
-#insertB{
-    display: block;
-    margin: 0 auto;
-    margin-top: 10px;
-    width: 100px;
-    height: 25px;
-    color: white;
-    background: black;
-    border-radius: 5px;
+.cell {
+  padding-right: 25px;
+  padding-left: 25px;
 }
