@@ -1,5 +1,5 @@
 # Javascript-BudgetApp
-First version of my app that tracks your finances.
+An app that tracks your finances.
 #
 Current version supports:
 1. Inserting the name of the expense
