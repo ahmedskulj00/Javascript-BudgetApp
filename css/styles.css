@@ -4,13 +4,23 @@
   box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+html {
+  height: 100%
+}
+body{
+  background: linear-gradient(116.82deg, #513896 0%, rgba(188, 48, 237, 0.67) 100%);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 h1 {
   text-align: center;
   margin-top: 150px;
+  color: white;
 }
 h3 {
   text-align: center;
   margin-top: 10px;
+  color: white;
 }
 #name-expense {
   display: block;
@@ -31,27 +41,38 @@ h3 {
   margin: 0 auto;
   margin-top: 10px;
   width: 100px;
-  height: 25px;
+  height: 40px;
   color: white;
   background: black;
+  opacity: 0.7;
   border-radius: 5px;
+  font-weight: bolder;
+  border: none;
 }
 #expense-table {
   margin: 0 auto;
   margin-top: 35px;
   width: 900px;
   border: 2px solid black;
+  opacity: 0.7;
 }
-.row {
+th{
   text-align: center;
-  display: flex;
-  justify-content: space-between;
+  color: white;
 }
-th {
-  padding-right: 25px;
-  padding-left: 25px;
+.cell{
+  text-align: center;
+  color: white;
+  padding-right: 50px;
 }
-.cell {
-  padding-right: 25px;
-  padding-left: 25px;
+.delete-button{
+  background: #B00808;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+  border: none;
+  color: white;
+}
+.row > th{
+  padding-right: 50px;
 }

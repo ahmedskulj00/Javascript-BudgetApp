@@ -4,11 +4,6 @@ var expenseTable = document.getElementById("expense-table");
 var submitButton = document.getElementById("submit");
 
 function addExpense() {
-  if (nameExpense.value == "" || expense.value == "") {
-    alert("Fields can't be empty");
-  } else if (isNaN(expense.value)) {
-    alert("Please enter the numerical value of the expense");
-  } else {
     var row = expenseTable.insertRow(1);
     row.setAttribute("class", "row");
 
@@ -22,10 +17,9 @@ function addExpense() {
 
     var deleteButton = document.createElement("button");
     deleteButton.setAttribute("class", "delete-button");
-    deleteButton.innerHTML = "X";
+    deleteButton.innerHTML = "Delete";
     row.appendChild(deleteButton);
     deleteButton.addEventListener("click", deleteExpense);
-  }
 }
 
 function deleteExpense() {
