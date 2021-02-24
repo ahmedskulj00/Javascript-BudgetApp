@@ -76,3 +76,15 @@ th{
 .row > th{
   padding-right: 50px;
 }
+
+@media only screen and (min-width: 360px) and (max-width: 960px){
+  #name-expense{
+    width: 90%;
+  }
+  #expense{
+    width: 90%;
+  }
+  #expense-table{
+    width: 90%;
+  }
+}
